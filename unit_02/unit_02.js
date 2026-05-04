@@ -1,15 +1,25 @@
 // Task 1.
-
+let a=7;
+let b=9;
+console.log(a+b);
 // Task 2.
-
+let c=7;
+let d=9;
+document.querySelector('.out-2').textContent = c/d;
 
 // Task 3.
-
+let e=3;
+let f=5;
+document.querySelector('.out-3').textContent = e*f;
 
 // Task 4.
-
+let e1='3';
+let f1=5;
+document.querySelector('.out-4').textContent = e+f;
 // Task 5.
-
+let e2=3;
+let f2=0;
+document.querySelector('.out-5').textContent = e/f;
 
 // Task 6.
 let e3 = 3;
@@ -47,9 +57,9 @@ button1.onclick = t9;
 
 // Task 10.
 let input1 = document.querySelector('.i-10');
-let button1 = document.querySelector('.b-10');
+let butto1 = document.querySelector('.b-10');
 let output1 = document.querySelector('.out-10');
-button1.onclick = function t10() {   
+butto1.onclick = function t10() {   
     let val = input1.value;
     output1.innerHTML = val;
 
@@ -57,12 +67,15 @@ button1.onclick = function t10() {
 
 // Task 11.
 
-function t11() {
-    
-}
+let input3 = document.querySelector('.i-11');
+let butto3 = document.querySelector('.b-11');
+let output3 = document.querySelector('.out-11');
+butto3.onclick = function t11() {   
+    let val = input3.value;
+    output3.innerHTML = val + 55;
+     
 
-
-document.querySelector('.b-11').onclick = t11;
+  }
 
 // Task 12.
  let lastName = document.querySelector('.i-12-1').value;
@@ -87,20 +100,25 @@ document.querySelector('.b-13').onclick = t13;
 
 // Task 14.
 
-function t14() {
-
-}
-
-
-document.querySelector('.b-14').onclick = t14;
+let input2 = document.querySelector('.i-14');
+let butto2 = document.querySelector('.b-14');
+let output2 = document.querySelector('.out-14');
+butto2.onclick = function t14() {   
+    let val = input1.value;
+    output2.innerHTML = val;
+    input2.value = 'Go';
+  }
 
 // Task 15.
 
-function t15() {
-
-}
-
-document.querySelector('.b-15').onclick = t15;
+let input5 = document.querySelector('.i-15');
+let butto5 = document.querySelector('.b-15');
+let output5 = document.querySelector('.out-15');
+butto5.onclick = function t15() {   
+    let val = input5.value;
+    output5.innerHTML = val;
+    input5.value = style.border = "4px solid red";
+  }
 
 // Task 16.
 
