@@ -13,7 +13,8 @@ document.querySelector('.b-1').onclick = f1;
 
 
 function f2(){
-  
+  let a21;
+  let 
 }
 
 document.querySelector('.b-2').onclick = f2;
@@ -101,7 +102,6 @@ document.querySelector('.b-10').onclick = f10;
 
 function f11(){
    
-
 }
 
 document.querySelector('.s-110').onchange = f11;
