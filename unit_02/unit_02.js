@@ -123,7 +123,12 @@ butto5.onclick = function t15() {
 // Task 16.
 
 function t16() {
-    
+let a = document.querySelector('.i-16-1').value;
+let b = document.querySelector('.i-16-2').value;
+
+let sum = a + b; 
+
+document.querySelector('.out-16').innerHTML = sum;
 }
 document.querySelector('.b-16').onclick = t16;
 
@@ -131,7 +136,11 @@ document.querySelector('.b-16').onclick = t16;
 
 
 function t17() {
-    
+let a = document.querySelector('.i-17').value;
+
+let result = Number(a);
+
+document.querySelector('.out-17').innerHTML = result;
 }
 
 document.querySelector('.b-17').onclick = t17;
@@ -140,7 +149,11 @@ document.querySelector('.b-17').onclick = t17;
 
 
 function t18() {
-    
+let a = document.querySelector('.i-18').value;
+
+let result = parseFloat(a);
+
+document.querySelector('.out-18').innerHTML = result;
 }
 
 document.querySelector('.b-18').onclick = t18;
